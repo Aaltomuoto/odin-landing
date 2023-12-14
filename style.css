@@ -14,18 +14,29 @@ body {
 }
 .row.darkblue {
     background-color:#202A37;
+    color: #FFF;
 }
 .row.grey {
     background-color:#E5E7EB ;
 }
+button {
+    background-color: #3B82F6;
+    color: #FFF;
+    padding: .5em 2em;
+    border: none;
+    border-radius: .5em;
+}
 header, .container {
-    max-width: 75em;
+    max-width: 56.25em;
     width: 100%;
     display: flex;
 }
+.container {
+    padding: 3em 0;
+}
 header {
     justify-content: space-between;
-    padding: 1em;
+    padding: 1em 0;
 }
 .logo {
     color: #FFF;
@@ -45,4 +56,23 @@ nav li a {
 }
 nav li a:hover {
     text-decoration: underline;
+}
+.header-container {
+    gap:2em;
+}
+.header-text, .header-image {
+    flex: 1;
+    margin-bottom: 3em;
+}
+.header-text h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.image {
+    background-color: #6D747D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
