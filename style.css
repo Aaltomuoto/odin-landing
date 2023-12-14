@@ -99,3 +99,18 @@ nav li a:hover {
     border-radius: 1em;
     border:.25em #3B82F6 solid
 }
+.container.quotes {
+    flex-direction: column;
+    margin:3em;
+    max-width: 45em;
+}
+.quote {
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 300;
+}
+.author {
+    font-size: 1.2em;
+    text-align: right;
+    font-weight: 700;
+}
