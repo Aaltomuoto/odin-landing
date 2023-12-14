@@ -114,3 +114,22 @@ nav li a:hover {
     text-align: right;
     font-weight: 700;
 }
+.cta {
+    background-color: #3B82F6;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2em 6em;
+    border-radius: 1em;
+}
+.cta div[class^='cta-'] {
+
+}
+.cta div[class^='cta-'] h3, .cta div[class^='cta-'] p {
+    margin: 0;
+}
+.cta button {
+    border: .125em #FFF solid;
+}
