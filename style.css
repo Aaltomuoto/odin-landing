@@ -68,11 +68,34 @@ nav li a:hover {
     margin: 0;
     font-size: 2.5em;
 }
-
-.image {
+.header-image .image {
     background-color: #6D747D;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
+}
+.container.information {
+    flex-direction: column;
+    align-items: center;
+}
+.container.information h2 {
+    margin: 0 0 1.5em;
+    font-size: 1.75em;
+}
+.item-container {
+    display: flex;
+    gap: 3em;
+    margin: 0 0 3em;
+}
+.item {
+    max-width: 10em;
+    text-align: center;
+}   
+.item .image {
+    width: 10em;
+    height: 10em;
+    margin: 0 0 1em;
+    border-radius: 1em;
+    border:.25em #3B82F6 solid
 }
