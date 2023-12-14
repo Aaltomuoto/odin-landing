@@ -20,4 +20,29 @@ body {
 }
 header, .container {
     max-width: 75em;
+    width: 100%;
+    display: flex;
+}
+header {
+    justify-content: space-between;
+    padding: 1em;
+}
+.logo {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap:1em;
+}
+nav li a {
+    text-decoration: none;
+    color: #D3D6DA;
+}
+nav li a:hover {
+    text-decoration: underline;
 }
