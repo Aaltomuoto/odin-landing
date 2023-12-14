@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 html {
     font-size: 16px;
 }
@@ -26,11 +31,15 @@ button {
     border: none;
     border-radius: .5em;
 }
+p {
+    margin-bottom: 1em;
+}
 header, .container {
     max-width: 56.25em;
-    width: 100%;
     display: flex;
+    flex: 1;
 }
+
 .container {
     padding: 3em 0;
 }
@@ -102,7 +111,7 @@ nav li a:hover {
 .container.quotes {
     flex-direction: column;
     margin:3em;
-    max-width: 45em;
+    padding: 0 6em;
 }
 .quote {
     font-size: 2em;
@@ -117,15 +126,11 @@ nav li a:hover {
 .cta {
     background-color: #3B82F6;
     color: #FFF;
-    display: flex;
+    margin: 3em;
     align-items: center;
     justify-content: space-between;
-    padding: 2em 6em;
     border-radius: 1em;
-    width: 100%;
-}
-.cta div[class^='cta-'] h3, .cta div[class^='cta-'] p {
-    margin: 0;
+    padding: 3em;
 }
 .cta button {
     border: .125em #FFF solid;
