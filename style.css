@@ -30,7 +30,6 @@ header, .container {
     max-width: 56.25em;
     width: 100%;
     display: flex;
-    justify-content: center;
 }
 .container {
     padding: 3em 0;
@@ -124,9 +123,6 @@ nav li a:hover {
     padding: 2em 6em;
     border-radius: 1em;
     width: 100%;
-}
-.cta div[class^='cta-'] {
-   flex: auto; 
 }
 .cta div[class^='cta-'] h3, .cta div[class^='cta-'] p {
     margin: 0;
